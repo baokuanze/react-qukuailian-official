@@ -1,0 +1,152 @@
+.roadMapContaner{
+    background: url('../../images/roadmap.jpg') no-repeat center top;
+    width: 100%;
+    background-color: rgb(20,26,42);
+    background: -webkit-linear-gradient(right,rgb(20,26,42) , rgb(28,34,50)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,rgb(20,26,42) , rgb(28,34,50)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,rgb(20,26,42) , rgb(28,34,50)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,rgb(20,26,42) , rgb(28,34,50)); /* 标准的语法 */
+    height: 567px;
+}
+.roadMapContaner_p1{
+    text-align: center;
+    padding-top: 48px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 80px;
+}
+.road_div{
+    position: relative;
+}
+.road_div_p1{
+    position: absolute;
+    width: 100%;
+    font-size: 26px;
+    color: #262a37;
+    top: 146px;
+    text-align: center;
+}
+.road_div_p2{
+    position: absolute;
+    width: 100%;
+    font-size: 16px;
+    color: #828282;
+    top: 182px;
+    text-align: center;
+}
+.roadMapQ2Bg{
+    margin-top: 20px;
+}
+.roadMapQ2{
+    width:801px;
+    position: relative;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.roadMapQ2::after{
+    content:" ";
+    position: absolute;
+    left: 0;
+    top: 43%;
+    width: 100%;
+    border-top: 1px dotted rgba(255,255,255,0.5);
+}
+.roadMapQ_5,.roadMapQ_1,.roadMapQ_2,.roadMapQ_3,.roadMapQ_4{
+    text-align: left;
+    cursor: pointer;
+    position: absolute;
+    padding: 8px;
+}
+.roadMapQ_1{
+    left: -1%;
+    top: -1px;
+}
+.roadMapQ_2{
+    left: 25%;
+    top: -1px;
+}
+.roadMapQ_3{
+    left: 50%;
+    top: -1px;
+}
+.roadMapQ_4{
+    left: 75%;
+    top: -1px;
+}
+.roadMapQ_5{
+    left: 99%;
+    top: -1px;
+}
+.roadMapQ_1_s{
+    position: absolute;
+    left: -2%;
+    top: -6px;
+}
+.roadMapQ_2_s{
+    position: absolute;
+    left: 31.3%;
+    top: -6px;
+}
+.roadMapQ_3_s{
+    position: absolute;
+    left: 64.6%;
+    top: -6px;
+}
+.roadMapQ_4_s{
+    position: absolute;
+    left: 98.6%;
+    top: -6px;
+}
+.roadMapQwordContaner{
+    width: 100%;
+    color: white;
+    font-size: 22px;
+}
+.roadMapQwordQ_s{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+.roadMapQword{
+    width: 896px;
+}
+
+.Q1Bg{
+    background: url('../../images/Q1.png')no-repeat center top;
+    width: 252px;
+    height: 178px;
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+}
+.Q2Bg{
+    background: url('../../images/Q2.png')no-repeat center top;
+    width: 252px;
+    height: 253px;
+    position: absolute;
+    left: 280px;
+    bottom: 0;
+}
+.Q3Bg{
+    background: url('../../images/q3.png')no-repeat center top;
+    width: 252px;
+    height: 204px;
+    position: absolute;
+    left: 544px;
+    bottom: 0;
+}
+.Q4Bg{
+    background: url('../../images/Q4.png')no-repeat center top;
+    width: 252px;
+    height:217px;
+    position: absolute;
+    right: 13px;
+    bottom: 0;
+}
+.Q1Bg_div{
+    height: 126px;
+    padding: 31px 30px 17px 30px;
+    color: #262a37;
+    font-size: 18px;
+}

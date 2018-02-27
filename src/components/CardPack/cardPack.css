@@ -1,0 +1,46 @@
+.CardPackContaner {
+    width: 100%;
+    background-color: white;
+}
+.CardPackContaner_left{
+    line-height: 1;
+    margin-left: 40px;
+    width: 415px;
+}
+.CardPackContaner_left>p{
+    width: 100%;
+}
+.CardPackContaner_left_p1{
+    font-size: 38px;
+    color: #262a37;
+    margin-bottom: 26px;
+}
+.CardPackContaner_left_p2{
+    font-size: 22px;
+    color: #828282;
+    line-height: 25px;
+}
+.CardPackContaner_left_p3{
+    font-size: 22px;
+    color: #828282;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.CardPackContaner_right{
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.CardPackContaner_right>img{
+    margin-bottom: 20px;
+}
+.CardPackContaner_right_p1{
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 30px
+}
+.CardPackContaner_right_p2{
+    font-size: 32px;
+    color: #262a37;
+}

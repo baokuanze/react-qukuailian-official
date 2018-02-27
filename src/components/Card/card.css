@@ -1,0 +1,158 @@
+.cardContaner{
+    width: 100%;
+}
+.cardContaner_left{
+    position: absolute;
+    top: 120px;
+    left: -70px;
+}
+.card_circle{
+    position: relative;
+    width: 666px;
+    height: 666px;
+    margin-bottom: 140px;
+}
+.card_circle_bottom{
+    width:66%;
+    line-height: 1;
+    margin-bottom: 100px;
+}
+.card_circle_bottom>p{
+    text-align: left;
+}
+.card_circle_1{
+    position: absolute;
+    left: 199.5px;
+    top: 199px;
+    z-index: 1
+}
+.card_circle_2{
+    position: absolute;
+    left: 105px;
+    top: 105px;
+    z-index: 22
+}
+.card_circle_3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3
+}
+.card_img{
+    position: absolute;
+    z-index: 5;
+    top: 108.5px;
+    left: 188px;
+}
+.card_circle_right{
+    line-height: 1;
+    height: 414px;
+    position: absolute;
+    left: 660px;
+    top: 90px;
+}
+.card_right_img{
+    margin-top: 198px;
+}
+.cardContaner_right{
+    position: absolute;
+    right: 30px;
+    bottom: 90px;
+}
+.p1{
+    font-size: 38px;
+    color:#262a37;
+}
+.p2{
+    font-size: 38px;
+    color:#262a37;
+}
+.p3{
+    font-size: 22px;
+    color:#828282;
+    margin-top: 26px;
+}
+.p4{
+    font-size: 22px;
+    color:#828282;
+    margin-top: 20px;
+}
+
+.p5{
+    font-size: 38px;
+    color:#262a37;
+}
+.p6{
+    font-size: 22px;
+    color:#828282;
+    margin-top: 22px;
+}
+.p7{
+    font-size: 22px;
+    color:#828282;
+    margin-top: 12px;
+    margin-bottom: 60px;
+}
+.pointName{
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.card_circle_right_ul>li{
+    font-size: 22px;
+    font-weight: bold;
+    color: #262a37;
+    margin-bottom: 32px;
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .zoomIn1 {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .zoomIn2{
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .zoomIn3{
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }

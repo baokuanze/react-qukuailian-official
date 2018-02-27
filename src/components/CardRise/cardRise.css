@@ -1,0 +1,39 @@
+.cardRiseContaner{
+    margin-bottom: 100px;
+}
+.cardRiseContaner_left{
+    width: 344px;
+    height: 100%;
+    margin-top: 110px;
+    margin-left: 60px;
+}
+
+.cardRiseContaner_right{
+    width: 554px;
+    text-align: left;
+    margin-top: 110px;
+    margin-left: 90px;
+    line-height: 1;
+    margin-right: 60px;
+}
+.cardRiseContaner_right_p1{
+    font-size: 38px;
+    color: #262a37;
+}
+
+.cardRiseContaner_right_p2{
+    font-size: 22px;
+    color: #262a37;
+    margin-top: 34px;
+}
+.cardRiseContaner_right_p3,.cardRiseContaner_right_p5{
+    font-size: 16px;
+    color: #828282;
+    margin-top: 14px;
+    line-height: 20px;
+}
+.cardRiseContaner_right_p4{
+    font-size: 22px;
+    color: #262a37;
+    margin-top: 30px;
+}
